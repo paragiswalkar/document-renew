@@ -37,7 +37,9 @@ On Windows
 Open a command prompt and navigate to your project directory:
 ```bash
 myvenv\Scripts\activate
-
+```
 After running the script
+
 ```bash
 python document_expiration.py
+```
