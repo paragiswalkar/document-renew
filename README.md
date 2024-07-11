@@ -26,3 +26,18 @@ This project manages document expiration dates using SQLite for data storage. It
    ```bash
    git clone https://github.com/your/repository.git
    cd repository
+
+### Creating a Virtual Environment
+```bash
+python3 -m venv myvenv
+
+Using a virtual environment (myvenv) is recommended to keep your project dependencies isolated. Follow these steps to create and activate a myvenv for this project:
+
+On Windows
+Open a command prompt and navigate to your project directory:
+```bash
+myvenv\Scripts\activate
+
+After running the script
+```bash
+python document_expiration.py
